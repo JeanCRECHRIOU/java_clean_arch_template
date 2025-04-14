@@ -22,4 +22,8 @@ public class UserController {
     public List<User> getUsers() {
         return userService.execute();
     }
+
+    public void test(){
+
+    }
 }
