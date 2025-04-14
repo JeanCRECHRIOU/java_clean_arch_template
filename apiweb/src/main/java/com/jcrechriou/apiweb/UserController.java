@@ -23,7 +23,5 @@ public class UserController {
         return getAllUsersUseCase.execute();
     }
 
-    public void test(){
-        String toto = "";
-    }
+
 }
