@@ -5,10 +5,10 @@ import com.jcrechriou.domain.UserRepository;
 
 import java.util.List;
 
-public class GetAllUsersUseCase {
+public class UserService {
     private final UserRepository userRepository;
 
-    public GetAllUsersUseCase(UserRepository userRepository) {
+    public UserService(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
 
