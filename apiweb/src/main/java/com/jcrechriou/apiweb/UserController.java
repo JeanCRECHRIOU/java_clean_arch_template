@@ -22,4 +22,8 @@ public class UserController {
     public List<User> getUsers() {
         return getAllUsersUseCase.execute();
     }
+
+    public void test(){
+        String toto = "";
+    }
 }
