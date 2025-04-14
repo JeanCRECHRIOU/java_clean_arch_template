@@ -1,7 +1,7 @@
-package com.jcrechriou.infra;
+package com.jcrechriou.infra.repositories;
 
-import com.jcrechriou.domain.User;
-import com.jcrechriou.domain.UserRepository;
+import com.jcrechriou.domain.entities.User;
+import com.jcrechriou.domain.interfaces.UserRepository;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,8 +1,8 @@
-package com.jcrechriou.apiweb;
+package com.jcrechriou.apiweb.controller;
 
-import com.jcrechriou.domain.User;
-import com.jcrechriou.infra.InMemoryUserRepository;
-import com.jcrechriou.services.UserService;
+import com.jcrechriou.domain.entities.User;
+import com.jcrechriou.infra.repositories.InMemoryUserRepository;
+import com.jcrechriou.application.services.UserService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

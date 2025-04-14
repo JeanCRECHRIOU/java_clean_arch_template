@@ -8,7 +8,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>domain</module>
-        <module>services</module>
+        <module>application</module>
         <module>infra</module>
         <module>apiweb</module>
     </modules>

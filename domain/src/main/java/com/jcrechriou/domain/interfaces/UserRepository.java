@@ -1,4 +1,6 @@
-package com.jcrechriou.domain;
+package com.jcrechriou.domain.interfaces;
+
+import com.jcrechriou.domain.entities.User;
 
 import java.util.List;
 

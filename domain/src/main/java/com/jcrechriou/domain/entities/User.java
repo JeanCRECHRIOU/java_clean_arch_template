@@ -1,4 +1,4 @@
-package com.jcrechriou.domain;
+package com.jcrechriou.domain.entities;
 
 public class User {
     private Long id;
