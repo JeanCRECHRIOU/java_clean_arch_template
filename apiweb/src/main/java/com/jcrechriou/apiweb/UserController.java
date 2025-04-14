@@ -22,6 +22,4 @@ public class UserController {
     public List<User> getUsers() {
         return getAllUsersUseCase.execute();
     }
-
-
 }
