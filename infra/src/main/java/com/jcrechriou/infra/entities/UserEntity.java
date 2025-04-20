@@ -1,11 +1,16 @@
-package com.jcrechriou.domain.entities;
+package com.jcrechriou.infra.entities;
 
-public class User {
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+
+@Entity
+public class UserEntity {
+    @Id
     private Long id;
     private String name;
 
-    // Constructeurs
-    public User(Long id, String name) {
+    public UserEntity(Long id, String name) {
         this.id = id;
         this.name = name;
     }

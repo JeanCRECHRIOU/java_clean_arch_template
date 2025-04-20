@@ -44,3 +44,8 @@ ENTRYPOINT ["java", "-jar", "app.jar"]
 # Puis executer l'image
 #docker run -p 8080:8080 java-clean-app
 
+
+# base de donnee
+# sudo docker run -d -p 5432:5432 --name postgres-container postgres
+#sudo docker compose up --build
+
